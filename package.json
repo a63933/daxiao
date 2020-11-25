@@ -2,7 +2,7 @@
   "name": "daxiao",
   "version": "0.0.2",
   "description": "大笑",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,12 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/a63933/daxiao.git"
   },
-  "main": "lib/index.js",
   "bin": "bin/nm2.js",
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/a63933/daxiao/issues"
   },
-  "homepage": "https://github.com/a63933/daxiao#readme"
+  "homepage": "https://github.com/a63933/daxiao#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
 }
